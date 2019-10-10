@@ -108,6 +108,56 @@ body {
     text-transform: uppercase;
     letter-spacing: 0.7px;
 }
+.button_apple {
+    background-color: #5e42b0;
+    box-shadow: 0 16px 24px #0a0e34;
+    padding: 26px 0px 25px 43px;
+    border-radius: 38px;
+    box-shadow: 0 16px 24px #0a0e34;
+    text-decoration: none;
+}
+.fa-apple::before {
+    content: 'f179';
+    color: white;
+    font-size: 40px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.button_dow {
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 35px;
+    text-transform: uppercase;
+    letter-spacing: 0.7px;
+    margin-left: 29px;
+    position: relative;
+    bottom: 7px;
+}
+.button_app {
+    color: #ffffff;
+    font-family: 'Proxima Nova B', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 35px;
+    text-transform: uppercase;
+    letter-spacing: 0.7px;
+    position: relative;
+    top: 7px;
+    right: 143px;
+}
+.fa-google-play::before {
+    content: 'f3ab';
+    color: white;
+    font-size: 40px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.header_button {
+    padding-top: 181px;
+    padding-left: 429px;
+}
+
 .container {  
     max-width: 1810px;
     width: 100%;
